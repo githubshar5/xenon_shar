@@ -4,7 +4,7 @@ from flask_mysqldb import MySQL,*
 import MySQLdb.cursors
 import re
 import configparser
-
+config = configparser.configparser()
 app = Flask(__name__)
 
 
